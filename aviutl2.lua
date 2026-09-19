@@ -1147,7 +1147,6 @@ function obj.getvalue(layer,effect,item,time,section)end
 ---@param num integer # アンカーポイントの数
 ---@param ... setanchor_options # オプションを列挙する
 ---@return integer # アンカーポイントの数
----@nodiscard
 function obj.setanchor(name,num,...)end
 
 
