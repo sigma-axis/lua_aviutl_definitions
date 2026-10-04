@@ -1580,6 +1580,17 @@ function obj.getpoint(target)end
 ---@nodiscard
 function obj.getpoint(target)end
 
+---@alias getpoint_multi_object_option
+---|'"index"' # 複数オブジェクト時の番号を取得
+---|'"num"'  # 複数オブジェクト時の数を取得(1=単体オブジェクト/0=不定)
+
+---個別オブジェクト時の情報を取得します。(現在処理しているオブジェクトの情報)
+---@param target "multi_object"
+---@param option getpoint_multi_object_option # 取得する値の種別
+---@return integer
+---@nodiscard
+function obj.getpoint(target,option)end
+
 ---トラックバー変化方法スクリプトでのみ有効<br>トラックバーの標準値を取得する
 ---@param target "default"
 ---@return number
