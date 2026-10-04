@@ -139,6 +139,7 @@ local bpm={}
 ---@field frame_e integer # 全体(シーン)基準のオブジェクトの終了フレーム
 ---@field effect_layer integer # 対象エフェクトが配置されているレイヤー
 ---@field originframe integer # 全体(シーン)基準のレンダリングの起点フレーム
+---@field scene_id integer # シーンのID
 ---@field track0 number # 1番目のトラックバーの値
 ---@field track1 number # 2番目のトラックバーの値
 ---@field track2 number # 3番目のトラックバーの値
